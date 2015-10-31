@@ -43,18 +43,18 @@ QUOTE AREA
 
 #qouteText {
   text-align: center;
-  font-size: 5.5rem;
+  font-size: 4rem;
   line-height: 100px;
 }
 
 .quoteSpace {
   background-color: #f6f6f6;
-  width: 50%;
+  width: 40%;
   margin:  0 auto;
   border-radius: 4px;
   padding: 50px;
   margin-bottom: 5%;
-  border: 3px #FF00FF solid;
+  border: 2px #FF00FF dashed;
 }
 
 .quoteSpace i {
@@ -94,9 +94,11 @@ Social media splash
 ***************/
 
 .splash-wrapper {
-  width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .splash-wrapper img {
@@ -137,4 +139,28 @@ Social media splash
     font-size: 0.65rem;
   }
 
+}
+
+@media (min-width: 700px) {
+  .splash-wrapper {
+    position: fixed;
+  }
+}
+
+@media (min-width: ) {
+
+}
+
+@media (max-width: 800px) {
+  .base-font {
+    font-size: 1.84rem;
+  }
+
+  #qouteText {
+    font-size: 2rem;
+  }
+
+  .button {
+    font-size: 0.65rem;
+  }
 }
