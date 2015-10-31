@@ -44,7 +44,6 @@ QUOTE AREA
 #qouteText {
   text-align: center;
   font-size: 4rem;
-  line-height: 100px;
 }
 
 .quoteSpace {
@@ -105,8 +104,8 @@ Social media splash
   padding: 0;
   margin: 0;
   margin-bottom: -50px;
-  width: 200px;
-  height: 256px;
+  width: 175px;
+  height: 244px;
   text-align: center;
 }
 
