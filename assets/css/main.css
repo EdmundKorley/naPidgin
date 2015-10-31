@@ -6,7 +6,9 @@ html {
   background-color: #008753;
   height: 100vh;
   width: 100vw;
-  font-size: 100%
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 /************
@@ -85,4 +87,54 @@ BUTTON AREA
   box-shadow: 0 5px 0 6px #F6F6F6;
   position: relative;
   top: 5px;
+}
+
+/**************
+Social media splash
+***************/
+
+.splash-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.splash-wrapper img {
+  padding: 0;
+  margin: 0;
+  margin-bottom: -50px;
+  width: 200px;
+  height: 256px;
+  text-align: center;
+}
+
+.social-media-btns {
+  display: block;
+}
+
+/* Smartphones */
+
+@media (max-width:500px) {
+  .brand-title {
+    font-size: 2rem;
+    margin-top: -25px;
+  }
+
+  .base-font {
+    font-size: 1.65rem;
+    margin-bottom: 10px;
+  }
+
+  #qouteText {
+    font-size: 1.75rem;
+  }
+
+  .qouteSpace {
+    padding: 10000px !important;
+  }
+
+  .button {
+    font-size: 0.65rem;
+  }
+
 }
