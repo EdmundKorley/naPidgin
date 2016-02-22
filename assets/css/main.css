@@ -6,9 +6,7 @@ html {
   background-color: #008753;
   height: 100vh;
   width: 100vw;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
+  font-size: 100%
 }
 
 /************
@@ -43,17 +41,18 @@ QUOTE AREA
 
 #qouteText {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5.5rem;
+  line-height: 100px;
 }
 
 .quoteSpace {
   background-color: #f6f6f6;
-  width: 40%;
+  width: 50%;
   margin:  0 auto;
   border-radius: 4px;
   padding: 50px;
   margin-bottom: 5%;
-  border: 2px #FF00FF dashed;
+  border: 3px #FF00FF dashed;
 }
 
 .quoteSpace i {
@@ -86,80 +85,4 @@ BUTTON AREA
   box-shadow: 0 5px 0 6px #F6F6F6;
   position: relative;
   top: 5px;
-}
-
-/**************
-Social media splash
-***************/
-
-.splash-wrapper {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-.splash-wrapper img {
-  padding: 0;
-  margin: 0;
-  margin-bottom: -50px;
-  width: 175px;
-  height: 244px;
-  text-align: center;
-}
-
-.social-media-btns {
-  display: block;
-}
-
-/* Smartphones */
-
-@media (max-width:500px) {
-  .brand-title {
-    font-size: 2rem;
-    margin-top: -25px;
-  }
-
-  .base-font {
-    font-size: 1.65rem;
-    margin-bottom: 10px;
-  }
-
-  #qouteText {
-    font-size: 1.75rem;
-  }
-
-  .qouteSpace {
-    padding: 10000px !important;
-  }
-
-  .button {
-    font-size: 0.65rem;
-  }
-
-}
-
-@media (min-width: 700px) {
-  .splash-wrapper {
-    position: fixed;
-  }
-}
-
-@media (min-width: ) {
-
-}
-
-@media (max-width: 800px) {
-  .base-font {
-    font-size: 1.84rem;
-  }
-
-  #qouteText {
-    font-size: 2rem;
-  }
-
-  .button {
-    font-size: 0.65rem;
-  }
 }
