@@ -6,7 +6,7 @@ html {
   background-color: #008753;
   height: 100vh;
   width: 100vw;
-  font-size: 75%
+  font-size: 60%
 }
 
 /************
@@ -42,7 +42,7 @@ QUOTE AREA
 #qouteText {
   text-align: center;
   font-size: 5.5rem;
-  line-height: 100px;
+  line-height: 1rem;
 }
 
 .quoteSpace {
